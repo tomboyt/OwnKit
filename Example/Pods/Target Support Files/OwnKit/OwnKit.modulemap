@@ -1,0 +1,6 @@
+framework module OwnKit {
+  umbrella header "OwnKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

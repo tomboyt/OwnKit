@@ -1,0 +1,6 @@
+framework module Pods_OwnKit_Tests {
+  umbrella header "Pods-OwnKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

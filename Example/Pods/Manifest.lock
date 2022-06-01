@@ -1,0 +1,16 @@
+PODS:
+  - OwnKit (0.0.1)
+
+DEPENDENCIES:
+  - OwnKit (from `../`)
+
+EXTERNAL SOURCES:
+  OwnKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OwnKit: 9517e3d31ee3d6fc67bf81192941e4a4a66a02d6
+
+PODFILE CHECKSUM: cc12beeb1d19988be42ff226c4470a392e69e8c4
+
+COCOAPODS: 1.11.3
