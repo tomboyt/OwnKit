@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09924CADC93C95ED5749E8ECB5D6EA25 /* OwnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C9F666308A0FE7869FC540CF7B511 /* OwnCollectionViewCell.swift */; };
+		0501284EED3D44EAD8E85A20CA68B4B6 /* OwnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AD2B32DD577EF9A2F2A7C0013E9881 /* OwnTableViewCell.swift */; };
 		113732F34717CDE125DA48A7B5E10371 /* Pods-OwnKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEAA50EB010C1E4685CF89B40533620 /* Pods-OwnKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		215C1249283C3D51A52DFFADAAB4EAB6 /* OwnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E774F4D4C41EC500DB3009BF4AB7FAE /* OwnTableViewCell.swift */; };
+		1F098F668EF8DF7745A319D295EA7418 /* OwnCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CF8F96D537E93BEED2722455B4336AC6 /* OwnCollectionViewCell.xib */; };
 		2B8A61267ABD0FFC989C135EE514F9A1 /* Pods-OwnKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4805141DB791C0809202E0F7B4D203A4 /* Pods-OwnKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53C4BC48CE41F07A5AAC582E9F73187D /* OwnKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41911ED852775670A6A859D8BF464593 /* OwnKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D51C9107E654C9AC9C5BCEA25F65EE /* OwnTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = B98AFF70B6FF274A3FE8CA4C6FBBFA6E /* OwnTableViewCell.xib */; };
+		53C4BC48CE41F07A5AAC582E9F73187D /* OwnKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15559FEC59E6A0BA4B4C793A281B62AF /* OwnKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58DD6DB28119CB492E505DE7C20BB147 /* Pods-OwnKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441B915F0069A0561C5B33C73E223DB8 /* Pods-OwnKit_Tests-dummy.m */; };
-		65BB17F107C747811F513B2F116E1B43 /* OwnTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = C95956859FC7ADFAEFB9513D8BF7F0A2 /* OwnTableViewCell.xib */; };
+		A22E1C82FCBB9E839DD2B5375C7198E1 /* OwnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A616BA54EE266BCDF4E37851B5024 /* OwnCollectionViewCell.swift */; };
 		A27288E16369553695C90206752B3840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A74B145C3C50D1FA932E7ED3A86FF368 /* OwnCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0C77077349414B5EE8EFE7DACE14E4E7 /* OwnCollectionViewCell.xib */; };
 		AC49163FCAF6186C11972756C7C3E4E2 /* Pods-OwnKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FFB8576269FF9520E54811775A1046 /* Pods-OwnKit_Example-dummy.m */; };
-		B5A93A68E6115506B397613DB220E422 /* OwnKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4806132C3DA1F5A26107A95E55C815A /* OwnKit-dummy.m */; };
 		BE96DD612EC46632F628FDE453640EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C1BA3DED5CA6854AFAF0C616F6B87D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C50DC1E7E84D958390B255171A22B984 /* OwnKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6A4DE0216D8AE8DF46E0F9D0B7FFD /* OwnKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AAB7A21886CEE8715AB631188FADCC0 /* OwnKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OwnKit.debug.xcconfig; sourceTree = "<group>"; };
-		0C77077349414B5EE8EFE7DACE14E4E7 /* OwnCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OwnCollectionViewCell.xib; sourceTree = "<group>"; };
+		02684B39CE6CBE808EDE4AEA310DF67A /* OwnKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OwnKit.modulemap; sourceTree = "<group>"; };
+		0BF82B4A86CF121B7C0FF808DF103AD8 /* OwnKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OwnKit-prefix.pch"; sourceTree = "<group>"; };
 		0F9B5D08CDBD9715956518DE7006FCDB /* Pods-OwnKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OwnKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1736C3CB5C97939435E729338D5FC90E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		15559FEC59E6A0BA4B4C793A281B62AF /* OwnKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OwnKit-umbrella.h"; sourceTree = "<group>"; };
+		1777A61307187958CA54B0625FA46421 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1CDB24D43760C2D59A72DC23531FD4F5 /* Pods-OwnKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OwnKit_Tests.modulemap"; sourceTree = "<group>"; };
 		1DEAA50EB010C1E4685CF89B40533620 /* Pods-OwnKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OwnKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		41911ED852775670A6A859D8BF464593 /* OwnKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OwnKit-umbrella.h"; sourceTree = "<group>"; };
+		2E89DB6FAFF5CAA31BE4AAA924625909 /* OwnKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OwnKit.debug.xcconfig; sourceTree = "<group>"; };
+		40AD2B32DD577EF9A2F2A7C0013E9881 /* OwnTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OwnTableViewCell.swift; path = OwnKit/Classes/lib/OwnTableViewCell.swift; sourceTree = "<group>"; };
+		422F0764247EC068DD3B7852DFB29D89 /* OwnKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OwnKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		441B915F0069A0561C5B33C73E223DB8 /* Pods-OwnKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OwnKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		4805141DB791C0809202E0F7B4D203A4 /* Pods-OwnKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OwnKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		49A656FF71E26634B419767A2E3BD224 /* OwnKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OwnKit; path = OwnKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,24 +59,21 @@
 		6BB7C8387DF3E052F96E23ED6C30445A /* Pods-OwnKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OwnKit_Tests"; path = Pods_OwnKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78C92894D80AFF9DD06668CC647DEC23 /* Pods-OwnKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OwnKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E774F4D4C41EC500DB3009BF4AB7FAE /* OwnTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OwnTableViewCell.swift; sourceTree = "<group>"; };
 		8A98268225AE6FC1D7530BC9011D3E4E /* Pods-OwnKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OwnKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE85E603FE0B17E03E72E5927E1B9EBD /* OwnKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OwnKit-Info.plist"; sourceTree = "<group>"; };
-		B4806132C3DA1F5A26107A95E55C815A /* OwnKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OwnKit-dummy.m"; sourceTree = "<group>"; };
-		B8098485880B9D9E64E0003B5F95649E /* OwnKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OwnKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A84A616BA54EE266BCDF4E37851B5024 /* OwnCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OwnCollectionViewCell.swift; path = OwnKit/Classes/newKit/OwnCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7D6A4DE0216D8AE8DF46E0F9D0B7FFD /* OwnKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OwnKit-dummy.m"; sourceTree = "<group>"; };
+		B8DF52EFF121B0AAA0007F5E10AC2B21 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B98AFF70B6FF274A3FE8CA4C6FBBFA6E /* OwnTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = OwnTableViewCell.xib; path = OwnKit/Classes/lib/OwnTableViewCell.xib; sourceTree = "<group>"; };
 		BA09CB2D8F96C8D715C2BF5F46B0406E /* Pods-OwnKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OwnKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BB2D1507E592467CEFB46C3C700C51D8 /* Pods-OwnKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OwnKit_Example-Info.plist"; sourceTree = "<group>"; };
 		BEE69A9C777F6CA5CCB7B0F4DE870D41 /* Pods-OwnKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OwnKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C4194111965BBD6A16DD474ED2BD12F3 /* Pods-OwnKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OwnKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C4426E99A8CF25D338C48B456073A0C6 /* OwnKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OwnKit-prefix.pch"; sourceTree = "<group>"; };
-		C90C9F666308A0FE7869FC540CF7B511 /* OwnCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OwnCollectionViewCell.swift; sourceTree = "<group>"; };
-		C95956859FC7ADFAEFB9513D8BF7F0A2 /* OwnTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = OwnTableViewCell.xib; sourceTree = "<group>"; };
-		D6BE691CC4D4FB55DB481B816BB69BE1 /* OwnKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OwnKit.modulemap; sourceTree = "<group>"; };
-		DA5BECED6E9D0B79A9C312596048B424 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CF8F96D537E93BEED2722455B4336AC6 /* OwnCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = OwnCollectionViewCell.xib; path = OwnKit/Classes/newKit/OwnCollectionViewCell.xib; sourceTree = "<group>"; };
+		E070177E9FC0B9B628F9FF61784503B8 /* OwnKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OwnKit.release.xcconfig; sourceTree = "<group>"; };
 		E0FFB8576269FF9520E54811775A1046 /* Pods-OwnKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OwnKit_Example-dummy.m"; sourceTree = "<group>"; };
 		E4F59AB164596E9C0C60C7519DB6D05F /* Pods-OwnKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OwnKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E57C5E4B347CF0F8A496B4E779736F45 /* OwnKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OwnKit.release.xcconfig; sourceTree = "<group>"; };
+		E57B1B75FEFC0460A6E8E750A1E762CD /* OwnKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OwnKit-Info.plist"; sourceTree = "<group>"; };
 		E5AAE923A4462358558EEA8A89B56132 /* Pods-OwnKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OwnKit_Example"; path = Pods_OwnKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5DCCD5A206432209835C878A0AC5F9 /* Pods-OwnKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OwnKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,16 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		126FB88F816D61EADE6288B9D6DABE7E /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				7E774F4D4C41EC500DB3009BF4AB7FAE /* OwnTableViewCell.swift */,
-				C95956859FC7ADFAEFB9513D8BF7F0A2 /* OwnTableViewCell.xib */,
-			);
-			name = lib;
-			path = OwnKit/Classes/lib;
-			sourceTree = "<group>";
-		};
 		2B88F6442BB370359E36066D7AE28B6D /* Pods-OwnKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,14 +123,13 @@
 			path = "Target Support Files/Pods-OwnKit_Example";
 			sourceTree = "<group>";
 		};
-		383407ED8829046FF5FFA81D06B9A126 /* newKit */ = {
+		35840536BC4E045969DA0288010795E3 /* newKit */ = {
 			isa = PBXGroup;
 			children = (
-				C90C9F666308A0FE7869FC540CF7B511 /* OwnCollectionViewCell.swift */,
-				0C77077349414B5EE8EFE7DACE14E4E7 /* OwnCollectionViewCell.xib */,
+				A84A616BA54EE266BCDF4E37851B5024 /* OwnCollectionViewCell.swift */,
+				CF8F96D537E93BEED2722455B4336AC6 /* OwnCollectionViewCell.xib */,
 			);
 			name = newKit;
-			path = OwnKit/Classes/newKit;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -167,6 +156,21 @@
 			path = "Target Support Files/Pods-OwnKit_Tests";
 			sourceTree = "<group>";
 		};
+		5FCF6188781117937901C4CC29C5B20D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02684B39CE6CBE808EDE4AEA310DF67A /* OwnKit.modulemap */,
+				B7D6A4DE0216D8AE8DF46E0F9D0B7FFD /* OwnKit-dummy.m */,
+				E57B1B75FEFC0460A6E8E750A1E762CD /* OwnKit-Info.plist */,
+				0BF82B4A86CF121B7C0FF808DF103AD8 /* OwnKit-prefix.pch */,
+				15559FEC59E6A0BA4B4C793A281B62AF /* OwnKit-umbrella.h */,
+				2E89DB6FAFF5CAA31BE4AAA924625909 /* OwnKit.debug.xcconfig */,
+				E070177E9FC0B9B628F9FF61784503B8 /* OwnKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OwnKit";
+			sourceTree = "<group>";
+		};
 		67329B8C21847AC4C7A393C471CA0D7A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,41 +180,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		72218710880F0511965BBB179E4B0B62 /* Support Files */ = {
+		68C123A84DAC59FBCEB7D29458936E87 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D6BE691CC4D4FB55DB481B816BB69BE1 /* OwnKit.modulemap */,
-				B4806132C3DA1F5A26107A95E55C815A /* OwnKit-dummy.m */,
-				AE85E603FE0B17E03E72E5927E1B9EBD /* OwnKit-Info.plist */,
-				C4426E99A8CF25D338C48B456073A0C6 /* OwnKit-prefix.pch */,
-				41911ED852775670A6A859D8BF464593 /* OwnKit-umbrella.h */,
-				0AAB7A21886CEE8715AB631188FADCC0 /* OwnKit.debug.xcconfig */,
-				E57C5E4B347CF0F8A496B4E779736F45 /* OwnKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OwnKit";
-			sourceTree = "<group>";
-		};
-		7C7FAA6B61F5D873D0720BBA7759ED33 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1736C3CB5C97939435E729338D5FC90E /* LICENSE */,
-				B8098485880B9D9E64E0003B5F95649E /* OwnKit.podspec */,
-				DA5BECED6E9D0B79A9C312596048B424 /* README.md */,
+				B8DF52EFF121B0AAA0007F5E10AC2B21 /* LICENSE */,
+				422F0764247EC068DD3B7852DFB29D89 /* OwnKit.podspec */,
+				1777A61307187958CA54B0625FA46421 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		8ADFBD00A1FCC5E992127B676F367B4D /* OwnKit */ = {
-			isa = PBXGroup;
-			children = (
-				126FB88F816D61EADE6288B9D6DABE7E /* lib */,
-				383407ED8829046FF5FFA81D06B9A126 /* newKit */,
-				7C7FAA6B61F5D873D0720BBA7759ED33 /* Pod */,
-				72218710880F0511965BBB179E4B0B62 /* Support Files */,
-			);
-			name = OwnKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -222,6 +199,15 @@
 				E208C3BF036381E07958434D1E707607 /* Products */,
 				67329B8C21847AC4C7A393C471CA0D7A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D030C2F46A4D191C5182B956A88D078C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				40AD2B32DD577EF9A2F2A7C0013E9881 /* OwnTableViewCell.swift */,
+				B98AFF70B6FF274A3FE8CA4C6FBBFA6E /* OwnTableViewCell.xib */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -242,10 +228,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E5CB41F0EF2B2D92430F8629FF142896 /* OwnKit */ = {
+			isa = PBXGroup;
+			children = (
+				D030C2F46A4D191C5182B956A88D078C /* lib */,
+				35840536BC4E045969DA0288010795E3 /* newKit */,
+				68C123A84DAC59FBCEB7D29458936E87 /* Pod */,
+				5FCF6188781117937901C4CC29C5B20D /* Support Files */,
+			);
+			name = OwnKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		E7E80C5B0E76AC5608DD3320D2C805F6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8ADFBD00A1FCC5E992127B676F367B4D /* OwnKit */,
+				E5CB41F0EF2B2D92430F8629FF142896 /* OwnKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -285,7 +283,7 @@
 			buildConfigurationList = 45A4711536CFA2B71E3B57A885065ABA /* Build configuration list for PBXNativeTarget "OwnKit" */;
 			buildPhases = (
 				BBFF3641E56C972B1024873E954CAB15 /* Headers */,
-				BF8EA94888042C435E90D031B822A101 /* Sources */,
+				742CC38E51DF35770EDEDDC6C7A98D51 /* Sources */,
 				E66C05EFE7880D31E06D9912223C53E0 /* Frameworks */,
 				53BB71BDBFA10A14A2ABB6C9192562B2 /* Resources */,
 			);
@@ -398,15 +396,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF8EA94888042C435E90D031B822A101 /* Sources */ = {
+		742CC38E51DF35770EDEDDC6C7A98D51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09924CADC93C95ED5749E8ECB5D6EA25 /* OwnCollectionViewCell.swift in Sources */,
-				A74B145C3C50D1FA932E7ED3A86FF368 /* OwnCollectionViewCell.xib in Sources */,
-				B5A93A68E6115506B397613DB220E422 /* OwnKit-dummy.m in Sources */,
-				215C1249283C3D51A52DFFADAAB4EAB6 /* OwnTableViewCell.swift in Sources */,
-				65BB17F107C747811F513B2F116E1B43 /* OwnTableViewCell.xib in Sources */,
+				A22E1C82FCBB9E839DD2B5375C7198E1 /* OwnCollectionViewCell.swift in Sources */,
+				1F098F668EF8DF7745A319D295EA7418 /* OwnCollectionViewCell.xib in Sources */,
+				C50DC1E7E84D958390B255171A22B984 /* OwnKit-dummy.m in Sources */,
+				0501284EED3D44EAD8E85A20CA68B4B6 /* OwnTableViewCell.swift in Sources */,
+				49D51C9107E654C9AC9C5BCEA25F65EE /* OwnTableViewCell.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,7 +567,7 @@
 		};
 		5EBF48D6C0C371A93FE2857CD99F8F33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E57C5E4B347CF0F8A496B4E779736F45 /* OwnKit.release.xcconfig */;
+			baseConfigurationReference = E070177E9FC0B9B628F9FF61784503B8 /* OwnKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -694,7 +692,7 @@
 		};
 		D9B25E2C30146FBED42FDE4998BE5BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AAB7A21886CEE8715AB631188FADCC0 /* OwnKit.debug.xcconfig */;
+			baseConfigurationReference = 2E89DB6FAFF5CAA31BE4AAA924625909 /* OwnKit.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
