@@ -1,6 +1,6 @@
 {
   "name": "OwnKit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "OwnKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tomboyt/OwnKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tomboyt/OwnKit.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -23,5 +23,15 @@
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
   },
+  "subspecs": [
+    {
+      "name": "lib",
+      "source_files": "OwnKit/Classes/lib/*"
+    },
+    {
+      "name": "newKit",
+      "source_files": "OwnKit/Classes/newKit/*"
+    }
+  ],
   "swift_version": "5.0"
 }
