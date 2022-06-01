@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OwnKit'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'OwnKit.'
 
 # This description is used to generate tags and improve search results.
