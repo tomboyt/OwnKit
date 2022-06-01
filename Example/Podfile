@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'OwnKit_Example' do
+  pod 'OwnKit', :path => '../'
+
+  target 'OwnKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
