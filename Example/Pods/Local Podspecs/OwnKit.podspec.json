@@ -1,9 +1,9 @@
 {
   "name": "OwnKit",
   "version": "0.0.5",
-  "summary": "OwnKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/tomboyt/OwnKit",
+  "summary": "基础组件",
+  "description": "基础组件，基本上每个项目都可以用到的东西。",
+  "homepage": "https://github.com/tomboyt/OwnKi",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -16,13 +16,10 @@
     "tag": "0.0.5"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
   "swift_versions": "5.0",
   "source_files": "OwnKit/Classes/*",
-  "pod_target_xcconfig": {
-    "VALID_ARCHS": "x86_64 armv7 arm64"
-  },
   "subspecs": [
     {
       "name": "framework",
