@@ -51,7 +51,7 @@ TODO: Add long description of the pod here.
   s.platform         = :ios, '9.0'
   #s.ios.deployment_target = '9.0'
   s.swift_versions   = '5.0'
-  s.source_files = 'OwnKit/Classes/*'#*/*'
+#  s.source_files = 'OwnKit/Classes/**/*'
  
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   # s.resource_bundles = {
