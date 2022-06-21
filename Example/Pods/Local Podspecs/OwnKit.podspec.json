@@ -19,6 +19,7 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
+  "source_files": "OwnKit/Classes/*",
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
   },
