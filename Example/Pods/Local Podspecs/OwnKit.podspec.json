@@ -19,17 +19,22 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
+  "source_files": "OwnKit/Classes/*",
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 armv7 arm64"
   },
   "subspecs": [
     {
-      "name": "lib",
-      "source_files": "OwnKit/Classes/lib/*"
+      "name": "framework",
+      "source_files": "OwnKit/Classes/framework/*"
     },
     {
       "name": "newKit",
       "source_files": "OwnKit/Classes/newKit/*"
+    },
+    {
+      "name": "lib",
+      "source_files": "OwnKit/Classes/lib/*"
     }
   ],
   "swift_version": "5.0"
