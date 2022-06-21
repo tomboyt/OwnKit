@@ -1,11 +1,11 @@
 PODS:
-  - OwnKit (0.0.4):
-    - OwnKit/framework (= 0.0.4)
-    - OwnKit/lib (= 0.0.4)
-    - OwnKit/newKit (= 0.0.4)
-  - OwnKit/framework (0.0.4)
-  - OwnKit/lib (0.0.4)
-  - OwnKit/newKit (0.0.4)
+  - OwnKit (0.0.5):
+    - OwnKit/framework (= 0.0.5)
+    - OwnKit/lib (= 0.0.5)
+    - OwnKit/newKit (= 0.0.5)
+  - OwnKit/framework (0.0.5)
+  - OwnKit/lib (0.0.5)
+  - OwnKit/newKit (0.0.5)
 
 DEPENDENCIES:
   - OwnKit (from `../`)
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OwnKit: 481d5af145052828814b30be8382bc6cccf4d292
+  OwnKit: 2251eca22b97331f15f6409cef2bc76010f9f3b9
 
 PODFILE CHECKSUM: cc12beeb1d19988be42ff226c4470a392e69e8c4
 
