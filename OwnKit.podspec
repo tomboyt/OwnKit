@@ -53,16 +53,16 @@
 #  s.swift_versions   = '5.0'
 #  s.source_files = 'OwnKit/Classes/*'
 #
-##  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-#  # s.resource_bundles = {
-#  #   'OwnKit' => ['OwnKit/Assets/*.png']
-#  # }
-##  s.subspec "lib" do |ss|
-##      ss.source_files = 'OwnKit/Classes/lib/*'
-##      end
-##  s.subspec "newKit" do |ss|
-##      ss.source_files = 'OwnKit/Classes/newKit/*'
-##      end
+#  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+#   s.resource_bundles = {
+#     'OwnKit' => ['OwnKit/Assets/*.png']
+#   }
+#  s.subspec "lib" do |ss|
+#      ss.source_files = 'OwnKit/Classes/lib/*'
+#      end
+#  s.subspec "newKit" do |ss|
+#      ss.source_files = 'OwnKit/Classes/newKit/*'
+#      end
 #  # s.public_header_files = 'Pod/Classes/**/*.h'
 #  # s.frameworks = 'UIKit', 'MapKit'
 #  # s.dependency 'AFNetworking', '~> 2.3'
@@ -71,7 +71,7 @@
 #end
 
 
-class MyCode
+class MyDir
 def recursionDirCreateSubSpace(path1,space)
     ignore = ['.','..','.DS_Store']
 
@@ -94,7 +94,7 @@ def recursionDirCreateSubSpace(path1,space)
 end
 Pod::Spec.new do |s|
     s.name             = 'OwnKit'
-    s.version          = '0.0.7'
+    s.version          = '0.0.8'
     s.summary          = '业务组件'
 
     s.description      = <<-DESC
@@ -107,13 +107,19 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/tomboyt/OwnKit.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '9.0'
-
     s.swift_version = '5.0'
-#    s.source_files = 'OwnKit/Classes/*'
-    # s.subspec "文件夹名称" do |a|
-    #     a.source_files = "BaseModules/Classes/文件夹名称/*"
-    # end
-    MyCode.new.recursionDirCreateSubSpace("OwnKit/Classes",s)
-    end
+#    s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+#    s.resource_bundles = {
+#      'OwnKit' => ['OwnKit/Assets/*.png']
+#    }
+    s.source_files = 'OwnKit/Classes/**/*'
+#    s.subspec "lib" do |ss|
+#        ss.source_files = 'OwnKit/Classes/lib/*'
+#        end
+#    s.subspec "newKit" do |ss|
+#        ss.source_files = 'OwnKit/Classes/newKit/*'
+#        end
+#    MyDir.new.recursionDirCreateSubSpace("OwnKit/Classes",s)
+#    end
 end
 
