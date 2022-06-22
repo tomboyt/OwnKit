@@ -1,6 +1,6 @@
 {
   "name": "OwnKit",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "summary": "业务组件",
   "description": "业务组件，仅限于单个模块业务。",
   "homepage": "https://github.com/tomboyt/OwnKit",
@@ -13,21 +13,12 @@
   },
   "source": {
     "git": "https://github.com/tomboyt/OwnKit.git",
-    "tag": "0.0.7"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "subspecs": [
-    {
-      "name": "newKit",
-      "source_files": "OwnKit/Classes/newKit/*"
-    },
-    {
-      "name": "lib",
-      "source_files": "OwnKit/Classes/lib/*"
-    }
-  ],
+  "source_files": "OwnKit/Classes/**/*",
   "swift_version": "5.0"
 }
