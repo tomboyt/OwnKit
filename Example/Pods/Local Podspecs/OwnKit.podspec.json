@@ -1,6 +1,6 @@
 {
   "name": "OwnKit",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "summary": "业务组件",
   "description": "业务组件，仅限于单个模块业务。",
   "homepage": "https://github.com/tomboyt/OwnKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tomboyt/OwnKit.git",
-    "tag": "0.0.8"
+    "tag": "0.0.9"
   },
   "platforms": {
     "ios": "9.0"
