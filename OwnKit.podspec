@@ -94,7 +94,7 @@ def recursionDirCreateSubSpace(path1,space)
 end
 Pod::Spec.new do |s|
     s.name             = 'OwnKit'
-    s.version          = '0.0.6'
+    s.version          = '0.0.7'
     s.summary          = '业务组件'
 
     s.description      = <<-DESC
@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.0'
 
     s.swift_version = '5.0'
-#    s.source_files = 'OwnKit/Classes/*'
+    s.source_files = 'OwnKit/Classes/*'
     # s.subspec "文件夹名称" do |a|
     #     a.source_files = "BaseModules/Classes/文件夹名称/*"
     # end
