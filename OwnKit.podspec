@@ -94,22 +94,22 @@ def recursionDirCreateSubSpace(path1,space)
 end
 Pod::Spec.new do |s|
     s.name             = 'OwnKit'
-    s.version          = '0.0.5'
-    s.summary          = '基础组件'
+    s.version          = '0.0.6'
+    s.summary          = '业务组件'
 
     s.description      = <<-DESC
-        基础组件，基本上每个项目都可以用到的东西。
+    业务组件，仅限于单个模块业务。
     DESC
 
-    s.homepage         = 'https://github.com/tomboyt/OwnKi'
+    s.homepage         = 'https://github.com/tomboyt/OwnKit'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'tomboyt' => 'tomboyt@163.com' }
     s.source           = { :git => 'https://github.com/tomboyt/OwnKit.git', :tag => s.version.to_s }
 
-    s.ios.deployment_target = '10.0'
+    s.ios.deployment_target = '9.0'
 
     s.swift_version = '5.0'
-    s.source_files = 'OwnKit/Classes/*'
+#    s.source_files = 'OwnKit/Classes/*'
     # s.subspec "文件夹名称" do |a|
     #     a.source_files = "BaseModules/Classes/文件夹名称/*"
     # end

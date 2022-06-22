@@ -1,9 +1,9 @@
 {
   "name": "OwnKit",
-  "version": "0.0.5",
-  "summary": "基础组件",
-  "description": "基础组件，基本上每个项目都可以用到的东西。",
-  "homepage": "https://github.com/tomboyt/OwnKi",
+  "version": "0.0.6",
+  "summary": "业务组件",
+  "description": "业务组件，仅限于单个模块业务。",
+  "homepage": "https://github.com/tomboyt/OwnKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,18 +13,13 @@
   },
   "source": {
     "git": "https://github.com/tomboyt/OwnKit.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "source_files": "OwnKit/Classes/*",
   "subspecs": [
-    {
-      "name": "framework",
-      "source_files": "OwnKit/Classes/framework/*"
-    },
     {
       "name": "newKit",
       "source_files": "OwnKit/Classes/newKit/*"
