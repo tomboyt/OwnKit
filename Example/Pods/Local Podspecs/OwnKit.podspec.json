@@ -19,7 +19,6 @@
     "ios": "9.0"
   },
   "swift_versions": "5.0",
-  "source_files": "OwnKit/Classes/*",
   "subspecs": [
     {
       "name": "newKit",
